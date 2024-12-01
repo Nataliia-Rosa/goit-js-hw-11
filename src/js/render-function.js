@@ -1,5 +1,3 @@
-import { formToJSON } from 'axios';
-
 export function renderGallery(images) {
   return images
     .map(
